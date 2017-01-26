@@ -1,0 +1,6 @@
+-   id: checkmake
+    name: Makefile linter/analyzer
+    entry: checkmate
+    language: golang
+    additional_dependencies: [github.com/mrtazz/checkmake]
+    files: Makefile
