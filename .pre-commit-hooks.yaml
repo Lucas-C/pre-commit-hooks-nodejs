@@ -1,6 +1,6 @@
--   id: checkmake
-    name: Makefile linter/analyzer
-    entry: checkmate
-    language: golang
-    additional_dependencies: [github.com/mrtazz/checkmake]
-    files: Makefile
+-   id: dockerfile_lint
+    name: Dockerfile linter
+    entry: dockerfile_lint
+    language: node
+    additional_dependencies: [dockerfile_lint@0.2.7]
+    files: Dockerfile.*

@@ -1,14 +1,10 @@
-Useful [pre-commit](http://pre-commit.com) hooks written in Go language.
-
-Currently **does not work under Cywgin**.
+Useful [pre-commit](http://pre-commit.com) hooks based on NodeJS scripts.
 
 ## Usage
 
-**WORK IN PROGRESS**
-
 ```
--   repo: https://github.com/Lucas-C/pre-commit-hooks-go
+-   repo: https://github.com/Lucas-C/pre-commit-hooks-nodejs
     sha: v1.0.0
     hooks:
-    -   id: checkmate
+    -   id: dockerfile_lint
 ```

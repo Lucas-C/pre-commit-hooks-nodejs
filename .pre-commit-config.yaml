@@ -1,4 +1,4 @@
--   repo: https://github.com/Lucas-C/pre-commit-hooks-go
-    sha: fb20623d9fc2c205371eca16aef2f10c48d60831
+-   repo: https://github.com/Lucas-C/pre-commit-hooks-nodejs
+    sha: master
     hooks:
-    -   id: checkmake
+    -   id: dockerfile_lint
