@@ -1,6 +1,7 @@
 -   id: dockerfile_lint
     name: Dockerfile linter
     entry: dockerfile_lint
+    args: [-f]
     language: node
     additional_dependencies: [dockerfile_lint@0.2.7]
     files: Dockerfile.*
