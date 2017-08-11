@@ -1,4 +1,5 @@
 -   repo: https://github.com/Lucas-C/pre-commit-hooks-nodejs
-    sha: v1.0.0
+    sha: master
     hooks:
     -   id: dockerfile_lint
+    -   id: markdown-toc

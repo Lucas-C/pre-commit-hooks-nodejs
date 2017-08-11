@@ -3,5 +3,12 @@
     entry: dockerfile_lint
     args: [-f]
     language: node
-    additional_dependencies: [dockerfile_lint@0.2.7]
+    additional_dependencies: [dockerfile_lint]
     files: Dockerfile.*
+-   id: markdown-toc
+    name: Insert a table of contents in Markdown files, like a README.md
+    entry: markdown-toc
+    args: [-i]
+    language: node
+    additional_dependencies: [markdown-toc]
+    files: README

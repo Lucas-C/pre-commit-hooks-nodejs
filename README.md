@@ -1,3 +1,5 @@
+<!-- toc -->
+
 Useful [pre-commit](http://pre-commit.com) hooks based on NodeJS scripts.
 
 Does not require to have NodeJS installed: `pre-commit` will be fetch and install it under the hood.
@@ -12,3 +14,8 @@ The test `Dockerfile` in this repo was taken from [here](https://github.com/dock
     hooks:
     -   id: dockerfile_lint
 ```
+
+#### markdown-toc
+
+By default, a table of content will be inserted in every file whose name contains `README`,
+injecting the TOC at `<!-- toc -->`.
