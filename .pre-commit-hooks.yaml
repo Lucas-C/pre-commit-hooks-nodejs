@@ -1,3 +1,15 @@
+-   id: htmlhint
+    name: NodeJS HTML syntax linter (htmlhint)
+    entry: htmlhint
+    language: node
+    files: .*\.(html|hbs)$
+    additional_dependencies: ['htmlhint']
+-   id: htmllint
+    name: NodeJS HTML syntax linter (htmllint)
+    entry: htmllint
+    language: node
+    files: .*\.(html|hbs)$
+    additional_dependencies: ['htmllint-cli']
 -   id: dockerfile_lint
     name: Dockerfile linter
     entry: dockerfile_lint
