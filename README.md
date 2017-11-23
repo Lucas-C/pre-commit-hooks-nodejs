@@ -37,7 +37,7 @@ Regex-based linter: https://github.com/yaniswang/HTMLHint
 
 Uses [htmlparser2](https://github.com/fb55/htmlparser2)-based linter: [htmllint](https://github.com/htmllint/htmllint/wiki/Options).
 
-Requires you to have a config file like [this default `.htmllintrc`](https://github.com/htmllint/htmllint-cli/blob/master/lib/default_cfg.json)).
+Requires you to have a config file like [this default `.htmllintrc`](https://github.com/htmllint/htmllint-cli/blob/master/lib/default_cfg.json).
 
 #### markdown-toc
 
