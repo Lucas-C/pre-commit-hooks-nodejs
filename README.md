@@ -1,3 +1,5 @@
+[![Known Vulnerabilities](https://snyk.io/test/github/lucas-c/pre-commit-hooks-nodejs/badge.svg)](https://snyk.io/test/github/lucas-c/pre-commit-hooks-nodejs)
+
 Useful [pre-commit](http://pre-commit.com) hooks based on NodeJS scripts.
 
 Does not require to have NodeJS installed: `pre-commit` will fetch & install it under the hood.
