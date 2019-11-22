@@ -1,0 +1,7 @@
+language: python
+python: "3.8"
+install: pip install pre-commit
+script: pre-commit run --all-files
+notifications:
+  email:
+    on_success: never

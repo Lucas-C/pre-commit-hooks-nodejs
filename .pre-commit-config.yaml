@@ -2,6 +2,8 @@ repos:
 -   repo: https://github.com/Lucas-C/pre-commit-hooks-nodejs
     rev: master
     hooks:
+    -   id: htmlhint
+    -   id: htmllint
     -   id: dockerfile_lint
-        args: [--json, --verbose, --dockerfile]
+    # Note: the test valid.html file has been generated with: https://github.com/Lucas-C/dotfiles_and_notes/blob/master/bin/md2html.js
     -   id: markdown-toc

@@ -1,0 +1,8 @@
+{
+    "indent-width": 2,
+    "id-class-style": "bem",
+    "attr-name-style": "dash",
+    "tag-bans": ["b", "i"], // allowing "style"
+    "attr-bans": ["align", "background", "bgcolor", "border", "frameborder", "longdesc", "marginwidth", "marginheight", "scrolling", "width"], // allowing "style"
+    "spec-char-escape": false
+}

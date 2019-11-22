@@ -21,8 +21,9 @@ The test `Dockerfile` in this repo was taken from [here](https://github.com/dock
 ## Usage
 
 ```
+repos:
 -   repo: https://github.com/Lucas-C/pre-commit-hooks-nodejs
-    sha: v1.1.0
+    rev: v1.1.0
     hooks:
     -   id: htmlhint
         # optional custom config:
