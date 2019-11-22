@@ -14,6 +14,7 @@ The test `Dockerfile` in this repo was taken from [here](https://github.com/dock
     + [htmlhint](#htmlhint)
     + [htmllint](#htmllint)
     + [markdown-toc](#markdown-toc)
+  * [dockerfile_lint](#dockerfile_lint)
 
 <!-- tocstop -->
 
@@ -23,12 +24,14 @@ The test `Dockerfile` in this repo was taken from [here](https://github.com/dock
 -   repo: https://github.com/Lucas-C/pre-commit-hooks-nodejs
     sha: v1.1.0
     hooks:
-    -   id: dockerfile_lint
-    -   id: markdown-toc
     -   id: htmlhint
         # optional custom config:
         args: [--config, .htmlhintrc]
     -   id: htmllint
+    -   id: markdown-toc
+    -   id: dockerfile_lint
+        # optional custom config:
+        args: [--json, --verbose, --dockerfile]
 ```
 
 #### htmlhint
@@ -48,3 +51,7 @@ injecting the TOC on lines with: "<&#33;-- toc -->"
 
 When the TOC is added or updated, the hook will fail with `Files were modified by this hook`.
 You then just have to `git add` your `README.md` and commit again (or `git commit -a`).
+
+### dockerfile_lint
+
+Simply call the latest version of [dockerfile_lint](https://github.com/projectatomic/dockerfile_lint)
