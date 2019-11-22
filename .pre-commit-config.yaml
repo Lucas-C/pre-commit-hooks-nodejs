@@ -7,3 +7,5 @@ repos:
     -   id: dockerfile_lint
     # Note: the test valid.html file has been generated with: https://github.com/Lucas-C/dotfiles_and_notes/blob/master/bin/md2html.js
     -   id: markdown-toc
+        # optional custom config:
+        args: [--indent, "    "]
