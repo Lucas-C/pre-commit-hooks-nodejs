@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/Lucas-C/pre-commit-hooks-nodejs.svg?branch=master)](https://travis-ci.org/Lucas-C/pre-commit-hooks-nodejs)
 [![Known Vulnerabilities](https://snyk.io/test/github/lucas-c/pre-commit-hooks-nodejs/badge.svg)](https://snyk.io/test/github/lucas-c/pre-commit-hooks-nodejs)
 
 Useful [pre-commit](http://pre-commit.com) hooks based on NodeJS scripts.
@@ -11,9 +12,9 @@ The test `Dockerfile` in this repo was taken from [here](https://github.com/dock
 <!-- toc -->
 
 - [Usage](#usage)
-    + [htmlhint](#htmlhint)
-    + [htmllint](#htmllint)
-    + [markdown-toc](#markdown-toc)
+  * [htmlhint](#htmlhint)
+  * [htmllint](#htmllint)
+  * [markdown-toc](#markdown-toc)
   * [dockerfile_lint](#dockerfile_lint)
 
 <!-- tocstop -->
@@ -35,17 +36,17 @@ repos:
         args: [--json, --verbose, --dockerfile]
 ```
 
-#### htmlhint
+### htmlhint
 
 Regex-based linter: https://github.com/yaniswang/HTMLHint
 
-#### htmllint
+### htmllint
 
 Uses [htmlparser2](https://github.com/fb55/htmlparser2)-based linter: [htmllint](https://github.com/htmllint/htmllint/wiki/Options).
 
 Requires you to have a config file like [this default `.htmllintrc`](https://github.com/htmllint/htmllint-cli/blob/master/lib/default_cfg.json).
 
-#### markdown-toc
+### markdown-toc
 
 By default, a table of content will be inserted in your repo root `README.md`,
 injecting the TOC on lines with: "<&#33;-- toc -->"
