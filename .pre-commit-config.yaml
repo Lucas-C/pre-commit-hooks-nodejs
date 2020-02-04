@@ -5,7 +5,7 @@ repos:
     -   id: htmlhint
     -   id: htmllint
     -   id: dockerfile_lint
-    # Note: the test valid.html file has been generated with: https://github.com/Lucas-C/dotfiles_and_notes/blob/master/bin/md2html.js
+    # Note: the test file valid.html has been generated with: https://github.com/Lucas-C/dotfiles_and_notes/blob/master/bin/md2html.js
     -   id: markdown-toc
         # optional custom config:
-        args: [--indent, "    "]
+        args: [--indent, "    ", -i]

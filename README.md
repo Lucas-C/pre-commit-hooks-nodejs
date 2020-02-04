@@ -12,10 +12,10 @@ The test `Dockerfile` in this repo was taken from [here](https://github.com/dock
 <!-- toc -->
 
 - [Usage](#usage)
-    * [htmlhint](#htmlhint)
-    * [htmllint](#htmllint)
-    * [markdown-toc](#markdown-toc)
-    * [dockerfile_lint](#dockerfile_lint)
+  * [htmlhint](#htmlhint)
+  * [htmllint](#htmllint)
+  * [markdown-toc](#markdown-toc)
+  * [dockerfile_lint](#dockerfile_lint)
 
 <!-- tocstop -->
 
@@ -32,7 +32,7 @@ repos:
     -   id: htmllint
     -   id: markdown-toc
         # optional custom config:
-        args: [--indent, "    "]
+        args: [--indent, "    ", -i]
     -   id: dockerfile_lint
         # optional custom config:
         args: [--json, --verbose, --dockerfile]
