@@ -12,10 +12,10 @@ The test `Dockerfile` in this repo was taken from [here](https://github.com/dock
 <!-- toc -->
 
 - [Usage](#usage)
-  * [htmlhint](#htmlhint)
-  * [htmllint](#htmllint)
-  * [markdown-toc](#markdown-toc)
-  * [dockerfile_lint](#dockerfile_lint)
+    * [htmlhint](#htmlhint)
+    * [htmllint](#htmllint)
+    * [markdown-toc](#markdown-toc)
+    * [dockerfile_lint](#dockerfile_lint)
 
 <!-- tocstop -->
 
