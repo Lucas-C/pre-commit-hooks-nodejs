@@ -23,4 +23,4 @@
     args: [-i]
     language: node
     additional_dependencies: [markdown-toc]
-    files: ^README.md$
+    files: .*\.md$
