@@ -24,7 +24,7 @@ The test `Dockerfile` in this repo was taken from [here](https://github.com/dock
 ```
 repos:
 -   repo: https://github.com/Lucas-C/pre-commit-hooks-nodejs
-    rev: v1.1.0
+    rev: v1.1.1
     hooks:
     -   id: htmlhint
         # optional custom config:
