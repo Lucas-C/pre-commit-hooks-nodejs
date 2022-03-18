@@ -22,5 +22,5 @@
     entry: markdown-toc
     args: [-i]
     language: node
-    additional_dependencies: [markdown-toc]
+    additional_dependencies: [github:Lucas-C/markdown-toc#handle-multiple-input-files]
     files: .*\.md$

@@ -12,10 +12,10 @@ The test `Dockerfile` in this repo was taken from [here](https://github.com/dock
 <!-- toc -->
 
 - [Usage](#usage)
-    * [htmlhint](#htmlhint)
-    * [htmllint](#htmllint)
-    * [markdown-toc](#markdown-toc)
-    * [dockerfile_lint](#dockerfile_lint)
+  * [htmlhint](#htmlhint)
+  * [htmllint](#htmllint)
+  * [markdown-toc](#markdown-toc)
+  * [dockerfile_lint](#dockerfile_lint)
 
 <!-- tocstop -->
 
@@ -24,7 +24,7 @@ The test `Dockerfile` in this repo was taken from [here](https://github.com/dock
 ```
 repos:
 -   repo: https://github.com/Lucas-C/pre-commit-hooks-nodejs
-    rev: v1.1.1
+    rev: v1.1.2
     hooks:
     -   id: htmlhint
         # optional custom config:

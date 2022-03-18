@@ -1,6 +1,6 @@
 repos:
 -   repo: https://github.com/Lucas-C/pre-commit-hooks-nodejs
-    rev: master
+    rev: v1.1.2
     hooks:
     -   id: htmlhint
     -   id: htmllint
