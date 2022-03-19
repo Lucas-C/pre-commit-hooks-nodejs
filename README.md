@@ -51,7 +51,7 @@ Requires you to have a config file like [this default `.htmllintrc`](https://git
 ### markdown-toc
 
 By default, a table of content will be inserted in your repo root `README.md`,
-injecting the TOC on lines with: "<&#33;-- toc -->"
+injecting the TOC on lines containing the HTML comment `<!-- toc -->`.
 
 When the TOC is added or updated, the hook will fail with `Files were modified by this hook`.
 You then just have to `git add` your `README.md` and commit again (or `git commit -a`).
